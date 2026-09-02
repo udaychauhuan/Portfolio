@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uday Pratap Singh Chauhan - Full Stack Web Developer</title>
+    <meta name="description" content="Portfolio of Uday Pratap Singh Chauhan, Full Stack Web Developer building production systems with Laravel, PHP, and React.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=JetBrains+Mono:wght@400&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- Mobile Overlay Menu -->
+    <div class="mobile-overlay">
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#toolkit">Toolkit</a>
+            <a href="#contact">Contact</a>
+            <a href="resume.html" class="btn-resume">Resume</a>
+        </div>
+        <button class="theme-toggle" aria-label="Toggle theme">☀️</button>
+    </div>
+
+    <!-- Fixed Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#hero" class="nav-brand">UPC</a>
+            
+            <div class="nav-right">
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                    <a href="resume.html" class="btn-resume">Resume</a>
+                </div>
+                <button class="theme-toggle" aria-label="Toggle theme">☀️</button>
+            </div>
+            
+            <button class="mobile-toggle" aria-label="Toggle menu">☰</button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="hero-eyebrow stagger-in">&gt; Full Stack Web Developer</span>
+                    <h1 class="hero-title stagger-in">Uday Pratap<br>Singh Chauhan</h1>
+                    <p class="hero-subtitle stagger-in">
+                        I build production-grade web systems — affiliate platforms,
+                        property-management tools, and CRMs — using Laravel, PHP,
+                        and React. Systems that hold up under real traffic.
+                    </p>
+                    <div class="hero-ctas stagger-in">
+                        <a href="#projects" class="btn-primary">View My Work &rarr;</a>
+                        <a href="resume.html" class="btn-ghost">View Full Resume 📄</a>
+                        <a href="#experience" class="link-text" style="margin-left: 1rem;">Explore Live Portfolio &darr;</a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual stagger-in">
+                    <div class="hero-photo-wrapper">
+                        <img src="assets/profile.png" alt="Uday Pratap Singh Chauhan — Full Stack Web Developer" class="hero-photo">
+                        <div class="hero-badge">
+                            <div class="hero-badge-top">
+                                <div class="status-dot"></div>
+                                Available for Work
+                            </div>
+                            <div class="hero-badge-sub">Full Stack Developer</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="social-sidebar stagger-in">
+                <a href="https://linkedin.com/in/uday-pratap-singh-chauhan-458361218" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/udaychauhuan" target="_blank" rel="noopener">GitHub</a>
+                <a href="mailto:pratap.uday.chauhan@gmail.com">Email</a>
+                <a href="https://udaychauhuan.github.io/Portfolio/" target="_blank" rel="noopener">Portfolio</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="container reveal-up">
+            <span class="section-marker">01 / About</span>
+            
+            <div class="about-byline">
+                <img src="assets/profile.png" alt="Uday Pratap Singh Chauhan" class="about-avatar">
+                <div class="about-byline-text">
+                    <span class="about-byline-name">Uday Pratap Singh Chauhan</span>
+                    <span class="about-byline-title">Full Stack Developer</span>
+                </div>
+            </div>
+
+            <h2 class="section-heading">More Than a Tech Stack</h2>
+            
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm a full-stack developer based in Agra, India. Over 4+ years, I've shipped production systems across affiliate marketing, property management, and CRM platforms — not demo projects, but live tools used by real businesses.</p>
+                    <p>My backend is Laravel (9–12). My frontend is React and JavaScript. What I care about most: clean API design, airtight authentication flows, and systems that don't break when traffic spikes.</p>
+                    <p>Currently engineering the affiliate ecosystem at ShareAProfit — multi-panel architecture (Publisher, Advertiser, Admin), Meta API social verification, wallet and transaction workflows, and CI/CD pipelines via GitHub Actions.</p>
+                    <p>Open to full-time roles and select freelance engagements.</p>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-num" data-target="4" data-suffix="+">0</span>
+                        <span class="stat-label">Years of Experience</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num" data-target="3">0</span>
+                        <span class="stat-label">Companies</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num" data-target="8" data-suffix="+">0</span>
+                        <span class="stat-label">Production Projects Live</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num" data-target="15" data-suffix="+">0</span>
+                        <span class="stat-label">Third-Party APIs Integrated</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Skills -->
+        <section id="skills" class="container reveal-up">
+            <span class="section-marker">02 / Core Skills</span>
+            <h2 class="section-heading">A practice built across systems</h2>
+            
+            <div class="accordion">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        <span>Backend Engineering &amp; API Architecture</span>
+                        <span class="accordion-icon">[+]</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-inner">
+                            <p>Building scalable server-side systems using Laravel 9–12 and PHP, including RESTful APIs, OAuth2 authentication via Passport, RBAC role management, Gates, middleware pipelines, CSRF protection, and rate limiting. Focused on maintainability, security, and performance.</p>
+                            <div class="skill-tags">
+                                <span>PHP</span><span>Laravel 9</span><span>Laravel 10</span><span>Laravel 11</span><span>Laravel 12</span><span>REST APIs</span>
+                                <span>Passport (OAuth2)</span><span>RBAC</span><span>Gates</span><span>Middleware</span><span>CSRF</span><span>Rate Limiting</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        <span>Frontend Development &amp; Integration</span>
+                        <span class="accordion-icon">[+]</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-inner">
+                            <p>Building responsive UIs and integrating them with backend APIs. Comfortable in React for component-driven SPAs and vanilla JS/jQuery for server-rendered Blade applications. Strong on data flow between frontend and backend.</p>
+                            <div class="skill-tags">
+                                <span>React</span><span>JavaScript ES6+</span><span>jQuery</span><span>Ajax</span><span>HTML5</span><span>CSS3</span>
+                                <span>Bootstrap 5</span><span>Blade Templates</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        <span>Third-Party API &amp; Platform Integrations</span>
+                        <span class="accordion-icon">[+]</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-inner">
+                            <p>Integrating complex external systems into production workflows: property-management platforms (Hostaway, Guesty, Hospitable), social and advertising APIs (Meta, Instagram, Facebook, YouTube, Google), payment gateways (Stripe, PayPal, Razorpay, Nomod), and webhook-driven event pipelines.</p>
+                            <div class="skill-tags">
+                                <span>Hostaway</span><span>Guesty</span><span>Hospitable</span><span>Meta API</span><span>Google APIs</span>
+                                <span>Stripe</span><span>PayPal</span><span>Razorpay</span><span>Nomod</span><span>Webhooks</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        <span>DevOps, CI/CD &amp; Delivery</span>
+                        <span class="accordion-icon">[+]</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-inner">
+                            <p>Setting up automated deployment pipelines, managing server environments, and ensuring reliable delivery cycles. Experience with GitHub Actions workflows, Docker-based environments, Apache server configuration, and database optimization for high-volume applications.</p>
+                            <div class="skill-tags">
+                                <span>Git</span><span>GitHub Actions</span><span>CI/CD</span><span>Docker</span><span>Apache</span>
+                                <span>MySQL</span><span>DB Optimization</span><span>Postman</span><span>VS Code</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tag Cloud -->
+            <div class="tag-cloud">
+                <span class="sz-lg">Laravel</span>
+                <span class="sz-md">PHP</span>
+                <span class="sz-lg">React</span>
+                <span class="sz-md">REST APIs</span>
+                <span class="sz-lg">MySQL</span>
+                <span class="sz-sm">Passport</span>
+                <span class="sz-sm">RBAC</span>
+                <span class="sz-md">JavaScript</span>
+                <span class="sz-md">Meta API</span>
+                <span class="sz-sm">Hostaway</span>
+                <span class="sz-sm">Stripe</span>
+                <span class="sz-sm">GitHub Actions</span>
+                <span class="sz-sm">Docker</span>
+                <span class="sz-sm">Blade</span>
+                <span class="sz-md">Middleware</span>
+                <span class="sz-sm">Webhooks</span>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="container reveal-up">
+            <span class="section-marker">03 / Experience</span>
+            <h2 class="section-heading">Where I've built things</h2>
+            
+            <div class="timeline">
+                <!-- Entry 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot live"></div>
+                    <span class="timeline-date">Jun 2024 – Present</span>
+                    <h3 class="timeline-role">Full Stack Web Developer</h3>
+                    <a href="https://www.shareaprofit.com" target="_blank" class="timeline-company">ShareAProfit Digit Media &nearr;</a>
+                    <span class="timeline-location">Faridabad, Haryana</span>
+                    <ul class="timeline-bullets">
+                        <li>Designed and developed a multi-panel affiliate marketing ecosystem (Publisher, Advertiser, Admin) using Laravel 11/12, MySQL, REST APIs, and JavaScript.</li>
+                        <li>Built publisher workflows: program discovery, affiliate-link generation, social-media verification (Instagram, Facebook, YouTube), wallet management, and reporting dashboards.</li>
+                        <li>Integrated Meta API for social-media account connection and website meta-tag verification.</li>
+                        <li>Engineered authentication, authorization, RBAC, Gates, middleware, CSRF protection, and rate limiting using Laravel Passport.</li>
+                        <li>Built wallet and transaction workflows including offline payment handling and reconciliation.</li>
+                        <li>Established CI/CD pipelines with GitHub Actions for automated deployments.</li>
+                        <li>Optimized MySQL queries and database schemas for high-volume affiliate reporting.</li>
+                    </ul>
+                    <div class="timeline-links">
+                        <a href="https://publisher.shareaprofit.com/sign-in" target="_blank" class="pill-link">Publisher Panel &nearr;</a>
+                        <a href="https://advertiser.shareaprofit.com/sign-in" target="_blank" class="pill-link">Advertiser Panel &nearr;</a>
+                        <a href="https://admin.shareaprofit.com/login" target="_blank" class="pill-link">Admin Panel &nearr;</a>
+                    </div>
+                </div>
+
+                <!-- Entry 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-date">Feb 2024 – Jun 2024</span>
+                    <h3 class="timeline-role">Full Stack Web Developer</h3>
+                    <a href="https://in.bl-india.com" target="_blank" class="timeline-company">Brand Liaison India &nearr;</a>
+                    <span class="timeline-location">Delhi</span>
+                    <ul class="timeline-bullets">
+                        <li>Developed and maintained the Laravel 10 backend for the company's CMS and admin dashboard.</li>
+                        <li>Built REST APIs consumed by a React frontend, ensuring seamless data flow and integration.</li>
+                        <li>Implemented authentication, authorization, role & permission-based access control, validations, and middleware.</li>
+                        <li>Collaborated closely with the frontend team to align API contracts and business workflows.</li>
+                    </ul>
+                </div>
+
+                <!-- Entry 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-date">Nov 2022 – Feb 2024</span>
+                    <h3 class="timeline-role">Full Stack Web Developer</h3>
+                    <span class="timeline-company">Webs Optimization Software Solution</span>
+                    <span class="timeline-location">Ahmedabad, Gujarat</span>
+                    <ul class="timeline-bullets">
+                        <li>FlyerCo (flyerco.com &nearr;): Enhanced privilege management for sponsors, administrators, team members, and agents; strengthened backend validation workflows.</li>
+                        <li>CIM (cim.woss.dev &nearr;): Optimized a CRM/inquiry-management platform; improved REST API integrations and implemented task-management workflows for assigned and unassigned inquiries.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="container reveal-up">
+            <span class="section-marker">04 / Selected Work</span>
+            <h2 class="section-heading">Ideas made for real systems</h2>
+            
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="professional">Professional</button>
+                <button class="filter-btn" data-filter="freelance">Freelance</button>
+                <button class="filter-btn" data-filter="personal">Personal</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Proj 1 -->
+                <article class="project-card" data-category="professional">
+                    <div class="project-bar" style="background-color: #4F8EF7;"></div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-num">01 &nearr;</span>
+                            <span class="project-cat">Professional &middot; Live</span>
+                        </div>
+                        <h3 class="project-title">ShareAProfit — Affiliate Marketing Platform</h3>
+                        <div class="project-platform">shareaprofit.com</div>
+                        <p class="project-desc">Multi-panel affiliate ecosystem (Publisher, Advertiser, Admin). Handles affiliate-link generation, Meta API social verification, wallet/transaction workflows, and real-time reporting across three distinct user roles.</p>
+                        <div class="project-tech">
+                            <span>Laravel 11/12</span><span>MySQL</span><span>REST APIs</span><span>Passport</span>
+                            <span>JavaScript</span><span>Meta API</span><span>GitHub Actions</span>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://www.shareaprofit.com" target="_blank" class="link-text">Visit Website &nearr;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proj 2 -->
+                <article class="project-card" data-category="professional">
+                    <div class="project-bar" style="background-color: #6C63FF;"></div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-num">02 &nearr;</span>
+                            <span class="project-cat">Professional &middot; Live</span>
+                        </div>
+                        <h3 class="project-title">Brand Liaison CMS &amp; Admin Dashboard</h3>
+                        <div class="project-platform">in.bl-india.com</div>
+                        <p class="project-desc">Laravel 10 backend powering a full CMS and admin dashboard consumed by a React frontend. Implemented RBAC, REST APIs, middleware, and complete business workflows end-to-end.</p>
+                        <div class="project-tech">
+                            <span>Laravel 10</span><span>PHP</span><span>REST APIs</span><span>React</span>
+                            <span>MySQL</span><span>Middleware</span><span>RBAC</span>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://in.bl-india.com" target="_blank" class="link-text">Visit Website &nearr;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proj 3 -->
+                <article class="project-card" data-category="freelance">
+                    <div class="project-bar" style="background-color: #F5A623;"></div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-num">03 &nearr;</span>
+                            <span class="project-cat">Freelance &middot; Live</span>
+                        </div>
+                        <h3 class="project-title">Rental &amp; Vacation Property PMS</h3>
+                        <div class="project-platform">Multiple client sites</div>
+                        <p class="project-desc">Laravel-based property-management and CMS platform integrating Hostaway, Guesty, and Hospitable APIs. Serves multiple client rental websites with booking, reservation, and data synchronization.</p>
+                        <div class="project-tech">
+                            <span>Laravel</span><span>PHP</span><span>Hostaway API</span><span>Guesty API</span>
+                            <span>Hospitable API</span><span>MySQL</span>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://bentonvillelodgingco.com" target="_blank" class="link-text" style="font-size: 0.75rem; margin-right: 0.5rem;">bentonvillelodgingco.com &nearr;</a>
+                            <a href="https://farmtocoastrentals.com" target="_blank" class="link-text" style="font-size: 0.75rem;">farmtocoastrentals.com &nearr;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proj 4 -->
+                <article class="project-card" data-category="professional">
+                    <div class="project-bar" style="background-color: #10B981;"></div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-num">04 &nearr;</span>
+                            <span class="project-cat">Professional</span>
+                        </div>
+                        <h3 class="project-title">FlyerCo &amp; CIM — Privilege &amp; CRM Systems</h3>
+                        <div class="project-platform">flyerco.com &middot; cim.woss.dev</div>
+                        <p class="project-desc">Enhanced privilege management for sponsors, agents, and admins on FlyerCo. Separately optimized CIM's CRM and inquiry-management platform with improved REST API integrations and task workflows.</p>
+                        <div class="project-tech">
+                            <span>Laravel</span><span>PHP</span><span>REST APIs</span><span>MySQL</span><span>CRM</span>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://flyerco.com" target="_blank" class="link-text" style="margin-right: 1rem;">flyerco.com &nearr;</a>
+                            <a href="https://cim.woss.dev" target="_blank" class="link-text">cim.woss.dev &nearr;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proj 5 -->
+                <article class="project-card" data-category="personal">
+                    <div class="project-bar" style="background-color: #EC4899;"></div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-num">05 &nearr;</span>
+                            <span class="project-cat">Personal</span>
+                        </div>
+                        <h3 class="project-title">Ticket Management System (TMS)</h3>
+                        <div class="project-platform">GitHub</div>
+                        <p class="project-desc">Full B2B/B2C ticket creation and purchase system with cart, checkout, dashboards, and purchase history. Stripe payment integration with complete authentication and authorization flows.</p>
+                        <div class="project-tech">
+                            <span>Laravel 9</span><span>Blade</span><span>Bootstrap 5</span><span>jQuery</span>
+                            <span>Ajax</span><span>Stripe</span><span>MySQL</span>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://github.com/udaychauhuan/ticketManagement" target="_blank" class="link-text">GitHub &nearr;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proj 6 -->
+                <article class="project-card" data-category="personal">
+                    <div class="project-bar" style="background-color: #8B5CF6;"></div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-num">06 &nearr;</span>
+                            <span class="project-cat">Personal</span>
+                        </div>
+                        <h3 class="project-title">AsKquery — Blogging Platform</h3>
+                        <div class="project-platform">GitHub</div>
+                        <p class="project-desc">Full-featured blogging platform built from scratch with user authentication, profile management, and post creation/editing workflows.</p>
+                        <div class="project-tech">
+                            <span>PHP</span><span>MySQL</span><span>HTML5</span><span>CSS</span>
+                            <span>Bootstrap</span><span>JavaScript</span>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://github.com/udaychauhuan/Askquery" target="_blank" class="link-text">GitHub &nearr;</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Toolkit -->
+        <section id="toolkit" class="container reveal-up">
+            <span class="section-marker">05 / Capabilities &amp; Stack</span>
+            <h2 class="section-heading">A flexible toolkit</h2>
+            
+            <div class="toolkit-grid">
+                <div class="toolkit-card">
+                    <span class="toolkit-icon">⬡</span>
+                    <h3 class="toolkit-title">Backend &amp; API Systems</h3>
+                    <ul class="toolkit-list">
+                        <li>Laravel 9–12 Framework</li>
+                        <li>REST API Design &amp; Security</li>
+                        <li>OAuth2 / Passport Auth</li>
+                        <li>RBAC, Gates &amp; Middleware</li>
+                        <li>CSRF Protection &amp; Rate Limiting</li>
+                        <li>Database Schema Design</li>
+                    </ul>
+                </div>
+                
+                <div class="toolkit-card">
+                    <span class="toolkit-icon">◈</span>
+                    <h3 class="toolkit-title">Frontend &amp; Integration</h3>
+                    <ul class="toolkit-list">
+                        <li>React Component Architecture</li>
+                        <li>Blade + JS Server-Side UIs</li>
+                        <li>API Data Binding &amp; State</li>
+                        <li>Bootstrap 5 Layouts</li>
+                        <li>Ajax &amp; jQuery Workflows</li>
+                        <li>HTML5 / CSS3 Responsive Design</li>
+                    </ul>
+                </div>
+
+                <div class="toolkit-card">
+                    <span class="toolkit-icon">⚡</span>
+                    <h3 class="toolkit-title">Third-Party &amp; Payments</h3>
+                    <ul class="toolkit-list">
+                        <li>Meta API (FB, IG, YouTube)</li>
+                        <li>Property PMS APIs (Hostaway etc)</li>
+                        <li>Stripe, PayPal, Razorpay</li>
+                        <li>Google APIs &amp; Webhooks</li>
+                        <li>Nomod Payment Gateway</li>
+                        <li>Social Verification Flows</li>
+                    </ul>
+                </div>
+
+                <div class="toolkit-card">
+                    <span class="toolkit-icon">⚑</span>
+                    <h3 class="toolkit-title">DevOps &amp; Delivery</h3>
+                    <ul class="toolkit-list">
+                        <li>GitHub Actions CI/CD Pipelines</li>
+                        <li>Docker Environments</li>
+                        <li>Apache Server Config</li>
+                        <li>MySQL Query Optimization</li>
+                        <li>Postman API Testing</li>
+                        <li>Git Version Control</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="toolkit-stats">
+                <div class="t-stat">
+                    <span class="t-stat-label">Remote-Ready</span>
+                    <span class="t-stat-desc">Seamless async collaboration across time zones.</span>
+                </div>
+                <div class="t-stat">
+                    <span class="t-stat-label">Backend-First</span>
+                    <span class="t-stat-desc">API contracts defined before UI — every time.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container reveal-up">
+            <span class="section-marker">06 / Let's Connect</span>
+            <h2 class="section-heading" style="margin-bottom: 1rem;">Let's Build Something That Holds Up.</h2>
+            <p class="contact-intro">Currently open for full-time roles and select freelance engagements. Let's connect.</p>
+            
+            <div class="contact-grid" style="margin-top: 4rem;">
+                <div class="contact-info">
+                    <div class="contact-method">
+                        <span class="contact-icon">✉</span>
+                        <div class="copy-email" data-email="Pratap.uday.chauhan@gmail.com" tabindex="0" role="button">
+                            Pratap.uday.chauhan@gmail.com
+                            <span class="copy-tooltip">Click to copy</span>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <span class="contact-icon">📞</span>
+                        <a href="tel:+919808240734">+91-9808240734</a>
+                    </div>
+                    <div class="contact-method">
+                        <span class="contact-icon">📍</span>
+                        <span>Agra, Uttar Pradesh, India</span>
+                    </div>
+
+                    <div class="social-rows">
+                        <div class="social-row">
+                            <span>LinkedIn</span>&rarr; <a href="https://linkedin.com/in/uday-pratap-singh-chauhan-458361218" target="_blank" rel="noopener">linkedin.com/in/uday-pratap-singh-chauhan-458361218</a>
+                        </div>
+                        <div class="social-row">
+                            <span>GitHub</span>&rarr; <a href="https://github.com/udaychauhuan" target="_blank" rel="noopener">github.com/udaychauhuan</a>
+                        </div>
+                        <div class="social-row">
+                            <span>Portfolio</span>&rarr; <a href="https://udaychauhuan.github.io/Portfolio/" target="_blank" rel="noopener">udaychauhuan.github.io/Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contact-form" action="#" method="POST" novalidate>
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" class="form-control">
+                            <div class="form-error">Error message</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-control">
+                            <div class="form-error">Error message</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="type">Opportunity Type</label>
+                            <select id="type" name="type" class="form-control">
+                                <option value="fulltime">Full-time Role</option>
+                                <option value="freelance">Freelance</option>
+                                <option value="collab">Collaboration</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" class="form-control"></textarea>
+                            <div class="form-error">Error message</div>
+                        </div>
+                        <button type="submit" class="btn-submit">Send Message &rarr;</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-left">
+                    <span class="footer-brand">UPC</span>
+                    <p>Full Stack Web Developer. Laravel &middot; PHP &middot; React.<br>Based in Agra, India. Open to remote roles.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-col">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#toolkit">Toolkit</a></li>
+                            <li><a href="resume.html">Resume &amp; CV</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="mailto:pratap.uday.chauhan@gmail.com">Email &nearr;</a></li>
+                            <li><a href="https://linkedin.com/in/uday-pratap-singh-chauhan-458361218" target="_blank" rel="noopener">LinkedIn &nearr;</a></li>
+                            <li><a href="https://github.com/udaychauhuan" target="_blank" rel="noopener">GitHub &nearr;</a></li>
+                            <li><a href="https://udaychauhuan.github.io/Portfolio/" target="_blank" rel="noopener">Portfolio &nearr;</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 Uday Pratap Singh Chauhan. Built with HTML, CSS &amp; JavaScript.
+            </div>
+        </div>
+    </footer>
+
+    <a href="#hero" class="back-to-top" aria-label="Back to top">Back to top &uarr;</a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
